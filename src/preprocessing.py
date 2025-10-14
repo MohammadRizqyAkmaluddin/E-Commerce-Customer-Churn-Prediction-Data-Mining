@@ -49,7 +49,7 @@ print("Ukuran data setelah encoding:", df_encoded.shape)
 
 output_path = "output/cleaned_data.csv"
 df_encoded.to_csv(output_path, index=False)
-print(f"\n✅ Cleaned dataset saved to: {output_path}")
+print(f"\nDataset clean disimpan di: {output_path}")
 
 
 num_cols = ['Tenure', 'WarehouseToHome', 'HourSpendOnApp', 
@@ -96,4 +96,3 @@ X_train.to_csv("output/X_train.csv", index=False)
 X_test.to_csv("output/X_test.csv", index=False)
 y_train.to_csv("output/y_train.csv", index=False)
 y_test.to_csv("output/y_test.csv", index=False)
-print("\n✅ Dataset final untuk modeling sudah disimpan di /output/")
