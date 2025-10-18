@@ -28,6 +28,10 @@ from sklearn.neighbors import KNeighborsClassifier
 
 from imblearn.over_sampling import SMOTE
 
+import seaborn as sns
+import matplotlib.pyplot as plt
+from sklearn.metrics import confusion_matrix
+
 url = 'https://raw.githubusercontent.com/Cloudyum/E-Commerce-Customer-Churn-Prediction-Data-Mining/refs/heads/main/output/cleaned_data.csv'
 
 df = pd.read_csv('https://raw.githubusercontent.com/Cloudyum/E-Commerce-Customer-Churn-Prediction-Data-Mining/refs/heads/main/output/cleaned_data.csv')
